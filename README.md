@@ -1,10 +1,10 @@
-# 🐦 Twitter Sentiment Analysis App
+# Twitter Sentiment Analysis App
 
 This project is a complete Natural Language Processing (NLP) pipeline that processes tweets and classifies their sentiment as **Positive**, **Negative**, or **Neutral** using various machine learning models. It ends with a user-friendly **Streamlit app** for real-time tweet classification.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Data cleaning and preprocessing
 - Tokenization
@@ -22,7 +22,7 @@ This project is a complete Natural Language Processing (NLP) pipeline that proce
 
 ---
 
-## 🧠 Project Pipeline
+## Project Pipeline
 
 ### 1. Data Preprocessing
 
@@ -61,7 +61,7 @@ Models trained using `GridSearchCV` and/or `RandomizedSearchCV`:
 
 ---
 
-## 📊 Performance (Logistic Regression)
+## Performance (Logistic Regression)
 
 | Metric      | -1 (Negative) | 0 (Neutral) | 1 (Positive) |
 |-------------|---------------|-------------|---------------|
@@ -73,7 +73,7 @@ Overall Accuracy: **0.89**
 
 ---
 
-## 🖥️ Streamlit App
+## Streamlit App
 
 The app takes in a tweet and classifies its sentiment in real-time.
 
@@ -87,7 +87,7 @@ App UI:
 
 ---
 
-## 🧰 Libraries Used
+## Libraries Used
 
 - `pandas`, `numpy`, `re`, `string`
 - `nltk`
@@ -97,7 +97,7 @@ App UI:
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 .
@@ -143,14 +143,14 @@ streamlit run app.py
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Named Entity Recognition (NER) was considered for future enhancements.
 - Model performance can be improved using `TF-IDF`, word embeddings (Word2Vec, BERT), or deep learning models (LSTM, BERT).
 
 ---
 
-## 📬 Contact
+## Contact
 
 Developed by: **Phase-4-Group-2**  
 GitHub: [github.com/Godfrey-249](https://github.com/Godfrey-249/Phase)
